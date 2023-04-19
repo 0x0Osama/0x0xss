@@ -88,11 +88,11 @@ sleep 2
 
 if curl -s -A "$payload" "$url" | grep -q "$payload "; then
  
-  echo -n "${BGray}XSS payload detected in response"
+  echo -n "${BGray}[+]XSS payload detected in response"
   
 else
 
-  echo -n "${BRed}XSS payload not detected in response"
+  echo -n "${BRed}[+]XSS payload not detected in response"
   
 fi
 

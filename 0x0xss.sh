@@ -80,6 +80,7 @@ On_White='\033[47m'     # White
 echo "URL : "
 read url
 
+#add User-Agent
 echo "payload : "
 read payload 
 
